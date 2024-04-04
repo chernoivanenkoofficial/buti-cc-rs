@@ -11,9 +11,9 @@ doctest = false
 test = false
 
 [build-dependencies]
-cc = { path = "../.." }
+buti-cc = { path = "../.." }
 which = "^4.0"
 
 [features]
-parallel = ["cc/parallel"]
+parallel = ["buti-cc/parallel"]
 test_cuda = []

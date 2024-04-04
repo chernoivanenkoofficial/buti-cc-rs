@@ -3,6 +3,8 @@ use std::fs;
 use std::path::{Path, PathBuf};
 use std::process::Command;
 
+use buti_cc as cc;
+
 fn main() {
     // if we are being executed from a `fork_run_action` call (i.e. this is a
     // "fork"), perform the requested action and then return.

@@ -7,7 +7,7 @@ use std::io;
 use std::io::prelude::*;
 use std::path::{Path, PathBuf};
 
-use cc;
+use buti_cc as cc;
 use tempfile::{Builder, TempDir};
 
 pub struct Test {
